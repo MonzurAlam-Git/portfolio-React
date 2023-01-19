@@ -9,7 +9,7 @@ const Home = () => {
     return (
         <div>
             <div className='flex justify-center bg-black p-10'>
-                <h1 className=" font-bold text-xl text-red-600">Sorry! Portfolio is on construction, Will be completed around 16/01/2023</h1>
+                <h1 className=" font-bold text-xl text-red-600">Sorry! Portfolio is on construction, Will be completed around 24/01/2023</h1>
                 <h1 className=" font-bold text-xl text-red-600">Meanwhile check out my projects below</h1>
             </div>
             <div>
