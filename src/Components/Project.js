@@ -4,30 +4,33 @@ import { NewsHeaderCard } from 'react-ui-cards';
 const Project = ({ project }) => {
     const { id, name, details, livelink, ss, techs } = project;
     return (
-        // <div className="card w-96 bg-base-100 shadow-xl image-full">
-        //     <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
-        //     <div className="card-body">
-        //         <h2 className="card-title">Shoes!</h2>
-        //         <p>If a dog chews shoes whose shoes does he choose?</p>
-        //         <div className="card-actions justify-end">
-        //             <button className="btn btn-primary">Buy Now</button>
-        //         </div>
-        //     </div>
-        // </div>
-        <div className='m-5 '>
-            <NewsHeaderCard
-                className='card w-96 text-center font-bold border-b-4 border-cyan-500'
-                href={livelink}
-                thumbnail={ss}
-                title={name}
-                tags={techs.map(tech => tech)}
+        <div>
 
-            // author='Daily Sport'
-            // date='Feb 2, 2018'
+            <div className='mb-20 mx-10'>
+                <NewsHeaderCard
+                    className='card w-96 text-center font-bold border-b-4 border-cyan-500 rounded-2xl '
+                    href={livelink}
+                    thumbnail={ss}
+                    title={name}
+                    tags={techs.map(tech => tech)}
+                />
+                {/* <div className="card w-96 lg:w-96 md:w-96 bg-base-100 shadow-xl image-full">
+                <figure><img src="https://i.ibb.co/VBhCQK7/cool-background-3.png" alt="Shoes" /></figure>
+                <div className="card-body">
+                    <NewsHeaderCard
+                        className='card w-96 text-center font-bold border-b-4 border-cyan-500'
+                        href={livelink}
+                        thumbnail={ss}
+                        title={name}
+                        tags={techs.map(tech => tech)}
+                    />
+                </div>
+            </div> */}
 
-            // tags={tech.values()}
-            />
+            </div>
         </div>
+
+
     );
 };
 
