@@ -1,0 +1,25 @@
+[
+    {
+        "name" : "Doctors Portal",
+        "details" : "Doctors Portal A full Stack website for seeking online appointment along with respective doctors information Technology : React , Node JS MongoDb , Express JS and essential library and package manager ",
+        "livelink" : "https://doctorsportal-11797.web.app"
+    },
+    
+    {
+        "name" : "TechTronix",
+        "details" : "TechTronix A full stack website for technology solutions. basically its a computer parts shop website with manufacture functionalities",
+        "livelink" : "https://techtronix-bffac.web.app/"
+       
+    },
+    {
+        "name" : "Bong-Song",
+        "details" : "BongSong is a full stack website Musical Merchandise Warehouse which tracks down your musical store stock. You can synchronize your stock with this website Features Track down your stock , Request for more stock, Update Your Stock, Delete unnecessary stock, Information about the artist Live Site -- ",
+        "livelink" : "https://bong2song.web.app"
+    },
+    {
+        "name" : "Doctors Portal",
+        "details" : "Doctors Portal A full Stack website for seeking online appointment along with respective doctors information Technology : React , Node JS MongoDb , Express JS and essential library and package manager ",
+        "livelink" : "https://doctorsportal-11797.web.app"
+    }
+    
+]
