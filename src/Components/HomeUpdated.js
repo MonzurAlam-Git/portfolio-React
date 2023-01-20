@@ -2,6 +2,8 @@ import React from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 
 import BannerHome from './BannerHome';
+import Contact from './Contact';
+import Footer from './Footer';
 import Projects from './Projects';
 
 const HomeUpdated = () => {
@@ -41,7 +43,9 @@ const HomeUpdated = () => {
             {/* Testimonial  */}
             {/* Subscribe Newsletter  */}
             {/* Contact  */}
+            <Contact></Contact>
             {/* footer */}
+            <Footer></Footer>
         </div>
     );
 };
